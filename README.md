@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Responsive 3 Column Preview Card using CSS Grid](https://www.frontendmentor.io/solutions/responsive-3-column-preview-card-using-css-grid-35aKjyR9-h)
 - Live Site URL: [Frontend Mentor | 3-column preview card component](https://00wyatt.github.io/fem-3-column-card/)
 
 ## My process
