@@ -24,11 +24,6 @@ body {
     font-family: "Lexend Deca", sans-serif;
     font-size: 0.9375rem; /* 15px */
 }
-a,
-a:visited,
-a:active {
-    text-decoration: none;
-}
 .attribution {
     font-size: 0.6875rem; /* 11px */
     text-align: center;
@@ -62,9 +57,10 @@ article {
     max-width: 600px;
     padding: 48px 40px;
 }
+article h1,
 article h2 {
     color: var(--very-light-gray);
-    font-family: 'Big Shoulders Display', cursive;
+    font-family: "Big Shoulders Display", cursive;
     text-transform: uppercase;
     font-size: 2.375rem; /* 38px */
 }
@@ -75,33 +71,25 @@ article p {
 }
 article button {
     background: var(--very-light-gray);
-    padding: 12px 22px 10px;
+    padding: 11px 22px 10px;
     border: 2px solid var(--very-light-gray);
     border-radius: 25px;
     transition: background-color 150ms, color 150ms;
-    font-weight: bold;
+    font-family: "Lexend Deca", sans-serif;
 }
 article button:hover {
     color: var(--very-light-gray);
+    background: transparent;
     cursor: pointer;
 }
 .sedans button {
     color: var(--bright-orange);
 }
-.sedans button:hover {
-    background: var(--bright-orange);
-}
 .suvs button {
     color: var(--dark-cyan);
 }
-.suvs button:hover {
-    background: var(--dark-cyan);
-}
 .luxury button {
     color: var(--very-dark-cyan);
-}
-.luxury button:hover {
-    background: var(--very-dark-cyan);
 }
 
 /* Desktop styles */
@@ -121,6 +109,7 @@ article button:hover {
     article {
         padding: 50px 45px 55px;
     }
+    article h1,
     article h2 {
         margin: 30px 0;
     }
@@ -128,7 +117,7 @@ article button:hover {
         margin: 20px 0 80px;
     }
     article button {
-        padding: 13px 29px 11px;
+        padding: 12px 28px 11px;
         font-size: 1rem; /* 16px */
     }
 }
